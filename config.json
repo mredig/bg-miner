@@ -1,0 +1,39 @@
+// https://config.xmrig.com/xmrig to create one or just modify this file
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "av": 0,
+    "background": true,
+    "colors": false,
+    "cpu-affinity": null,
+    "cpu-priority": 0,
+    "donate-level": 1,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": "./logs/xmrig",
+    "max-cpu-usage": 100,
+    "pools": [
+        {
+            "url": "xmr.pool.minergate.com:45700",
+            "user": "wnpxn4c4h1cyekz",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 10,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "threads": null
+}

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  bgminer:
+    build: ./
+    image: bg-miner/bg-miner
+    restart: unless-stopped
+    cap_add:
+      - SYS_NICE
+    dns:
+      - "8.8.8.8"
+      - "8.8.4.4"
