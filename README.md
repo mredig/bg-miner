@@ -56,6 +56,9 @@ NOTE: docker does not play [nice](https://en.wikipedia.org/wiki/Nice_(Unix)) (ha
 
 ### Donate if you appreciate this work
 xmr: `496zV4xRqyw99rrwdwy89pJvHjsdVeVDnTwhnDCnNaPdgr3v8JfBZmEMiSqykdZy7uTNvFRwXU1woRa2Mkzscueo3nQuQYx`
+
 btc: `18QgJFvFNqes6K62pY66YQRj9fZ1e1RYz9`
+
 eth: `0x7D735e8C7Bd61f073A136534D92895C614c30Fb5`
+
 ltc: `LeSowYRfPjz9wZUB6W8fX8czL5FePJZbuh`
