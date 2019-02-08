@@ -8,7 +8,6 @@ RUN ./setup.sh
 
 COPY run.sh .
 COPY stop.sh .
-# COPY xmrig .
 COPY config.json .
 COPY dockerstuff/entrypoint.sh .
 
