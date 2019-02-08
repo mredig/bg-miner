@@ -9,7 +9,11 @@ else
 	echo "starting xmrig."
 	nice -n 19 ./xmrig -c config.json
 
-	cpulimit -l $LIMIT -p $(pgrep xmrig) -b
+	XMRPID=$(pgrep xmrig)
+
+	cpulimit -l $LIMIT -p $XMRPID -b
+
+	echo 19 > /proc/$XMRPID/autogroup
 
 	# let the bg process print to screen and then give you a clean prompt
 	sleep 2
