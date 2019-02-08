@@ -1,4 +1,4 @@
-version: '3'
+version: '2.1'
 
 services:
 
@@ -6,6 +6,7 @@ services:
     build: ./
     image: bg-miner/bg-miner
     restart: unless-stopped
+    cpu_shares: 10
     cap_add:
       - SYS_NICE
     dns:
